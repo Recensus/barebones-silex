@@ -1,0 +1,19 @@
+{
+    "name": "jodymickey/barebones",
+    "description": "Barebones Silex website with some Symfony components and Doctrine2 ORM",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "silex/silex": "dev-master",
+        "doctrine/orm": "2.2.2"
+    },
+    "autoload": {
+        "psr-0": { "Project": "src/" }
+    },
+    "authors": [
+        {
+            "name": "Jody Mickey",
+            "email": "jody.mickey@gmail.com"
+        }
+    ]
+}
