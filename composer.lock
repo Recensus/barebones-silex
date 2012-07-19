@@ -1,5 +1,5 @@
 {
-    "hash": "1af583c6611d59dd0f4fe0e3bb2523ea",
+    "hash": "0b03580e9774a83bf67d470a959fbdd0",
     "packages": [
         {
             "package": "doctrine/common",
@@ -24,12 +24,6 @@
             "version": "dev-master",
             "source-reference": "d2cfa2f02f50abef65c238747c753a5f6786f6be",
             "commit-date": "1341139100"
-        },
-        {
-            "package": "silex/silex",
-            "version": "dev-master",
-            "alias-pretty-version": "1.0.x-dev",
-            "alias-version": "1.0.9999999.9999999-dev"
         },
         {
             "package": "silex/silex",
@@ -84,6 +78,18 @@
             "version": "dev-master",
             "source-reference": "3630f2d08515bbad980c0d654433b6689cf460a2",
             "commit-date": "1342708743"
+        },
+        {
+            "package": "symfony/templating",
+            "version": "dev-master",
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
+        },
+        {
+            "package": "symfony/templating",
+            "version": "dev-master",
+            "source-reference": "f12b84f58635e7548dfff88ca25ce57eb2044096",
+            "commit-date": "1342456146"
         }
     ],
     "packages-dev": null,
@@ -92,6 +98,7 @@
     ],
     "minimum-stability": "dev",
     "stability-flags": {
-        "silex/silex": 20
+        "silex/silex": 20,
+        "symfony/templating": 20
     }
 }
