@@ -2,8 +2,12 @@
 
 $app = new Silex\Application();
 
+$app->register(new Silex\Provider\TwigServiceProvider(), array(
+    'twig.path' => __DIR__ . '/views'
+));
+
 $app->get('/', function() {
-    return "<h1>Barebones Silex App</h1>";
+    return $app['twig']->render('index.twig');
 });
 
 $app->run();
