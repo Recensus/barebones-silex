@@ -1,3 +1,6 @@
 [submodule "extras/twitter-bootstrap"]
 	path = extras/twitter-bootstrap
 	url = git://github.com/twitter/bootstrap.git
+[submodule "extras/font-awesome"]
+	path = extras/font-awesome
+	url = git://github.com/FortAwesome/Font-Awesome.git
