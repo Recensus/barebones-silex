@@ -5,7 +5,9 @@
     "minimum-stability": "dev",
     "require": {
         "silex/silex": "dev-master",
-        "doctrine/orm": "2.2.2",
+        "symfony/templating": "dev-master",
+        "twig/twig": "dev-master",
+        "doctrine/orm": "2.2.2"
         "monolog/monolog": ">=1.0.0,<1.2-dev",
     },
     "autoload": {
