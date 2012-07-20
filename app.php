@@ -1,5 +1,8 @@
 <?php
 
+error_reporting(E_ALL ^ E_NOTICE);
+ini_set('display_errors', 'on');
+
 $app = new Silex\Application();
 
 $app->register(new Silex\Provider\TwigServiceProvider(), array(
