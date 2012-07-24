@@ -8,6 +8,9 @@
         "symfony/templating": "dev-master",
         "doctrine/orm": "2.2.2",
         "monolog/monolog": ">=1.0.0,<1.2-dev",
+        "symfony/browser-kit": "dev-master",
+        "symfony/css-selector": "dev-master",
+        "symfony/process": "dev-master"
     },
     "autoload": {
         "psr-0": { "Project": "src/" }

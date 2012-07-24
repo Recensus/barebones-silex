@@ -5,12 +5,10 @@ ini_set('display_errors', 'on');
 
 $app = new Silex\Application();
 
-$app->register(new Silex\Provider\TwigServiceProvider(), array(
-    'twig.path' => __DIR__ . '/views'
-));
-
 $app->get('/', function() {
-    return $app['twig']->render('index.twig');
+    return "<!DOCTYPE html><html><body><h1>Barebones Silex Application</h1></body></html>";
 });
 
 $app->run();
+
+return $app;
