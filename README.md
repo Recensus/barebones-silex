@@ -1,6 +1,8 @@
 Barebones Silex
 ===============
 
+[![Build Status](https://secure.travis-ci.org/jwmickey/barebones-silex.png?branch=master)](http://travis-ci.org/jwmickey/barebones-silex)
+
 This is a basic start for a [Silex](http://silex.sensiolabs.org/) PHP website.  It comes 
 pre-configured for use with [Doctrine 2](http://www.doctrine-project.org/projects/orm.html), 
 although no entity manager is set up at the time of this writing.
