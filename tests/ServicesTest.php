@@ -15,4 +15,10 @@ class ServicesTests extends BaseTestCase
         $this->assertTrue($this->app['session'] instanceof Symfony\Component\HttpFoundation\Session\Session, 
                           "Session Provider is not registered");
     }
+
+    public function testTwigProviderIsRegistered()
+    {
+        $this->assertTrue($this->app['twig'] instanceof \Twig_Environment,
+                          "Twig Provider is not registered");
+    }
 }

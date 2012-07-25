@@ -10,6 +10,8 @@ class BaseTestCase extends WebTestCase
         $app['debug'] = true;
         unset($app['exception_handler']);
 
+        require __DIR__.'/../src/Controllers.php';
+
         return $app;
     }
 }
