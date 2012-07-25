@@ -1,18 +1,8 @@
 <?php
+require_once 'BaseTestCase.php';
 
-use Silex\WebTestCase;
-
-class IndexControllerTest extends WebTestCase
+class IndexControllerTest extends BaseTestCase
 {
-    public function createApplication()
-    {
-        $app = require __DIR__.'/../app.php';
-        $app['debug'] = true;
-        unset($app['exception_handler']);
-
-        return $app;
-    }
-
     public function testIndexPage()
     {
         $client = $this->createClient();
